@@ -19,7 +19,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 618
     y: -190
-    width: 759
+    width: 747
     height: 2464
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -52,6 +52,20 @@ MonoBehaviour:
   m_UISuperCollapsed: 0
   m_UIInfos: {fileID: 114340500867371532}
   m_ParameterInfo:
+  - name: Spawn Rate
+    path: Spawn Rate
+    tooltip: 
+    sheetType: m_Int
+    realType: Int32
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 50
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
   - name: Velocity
     path: 
     tooltip: 
@@ -121,34 +135,6 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: Frame Rate
-    path: Frame Rate
-    tooltip: 
-    sheetType: m_Int
-    realType: Int32
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 30
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: Spawn Rate
-    path: Spawn Rate
-    tooltip: 
-    sheetType: m_Int
-    realType: Int32
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 50
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
   - name: Random Texture Index
     path: Random Texture Index
     tooltip: 
@@ -163,10 +149,24 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
+  - name: Frame Rate
+    path: Frame Rate
+    tooltip: 
+    sheetType: m_Int
+    realType: Int32
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 30
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
   m_ImportDependencies: []
   m_GraphVersion: 6
   m_ResourceVersion: 1
-  m_saved: 0
+  m_saved: 1
   m_SubgraphDependencies: []
   m_CategoryPath: 
 --- !u!2058629511 &8926484042661614527
@@ -1124,7 +1124,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614674}
-  m_UIPosition: {x: 953, y: 1175}
+  m_UIPosition: {x: 937, y: 1167}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -1700,7 +1700,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614605}
   m_ExposedName: Velocity
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
@@ -3113,7 +3113,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614665}
   m_ExposedName: Color Over Life
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
@@ -3193,7 +3193,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614667}
   m_ExposedName: Texture
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 3
   m_Category: 
   m_Min:
     m_Type:
@@ -3495,7 +3495,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614682}
   m_ExposedName: Flipbook Size
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 4
   m_Category: 
   m_Min:
     m_Type:
@@ -3643,7 +3643,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614692}
   m_ExposedName: Frame Rate
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 6
   m_Category: 
   m_Min:
     m_Type:
@@ -3821,7 +3821,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614703}
   m_ExposedName: Spawn Rate
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 0
   m_Category: 
   m_Min:
     m_Type:
@@ -4052,7 +4052,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614723}
   m_ExposedName: Random Texture Index
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 5
   m_Category: 
   m_Min:
     m_Type:
