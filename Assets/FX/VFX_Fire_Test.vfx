@@ -17,9 +17,9 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 618
+    x: 635
     y: -190
-    width: 747
+    width: 730
     height: 2473
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -315,7 +315,6 @@ MonoBehaviour:
   - {fileID: 8926484042661614598}
   - {fileID: 8926484042661614610}
   - {fileID: 8926484042661614631}
-  - {fileID: 8926484042661614773}
   - {fileID: 8926484042661614770}
   m_UIPosition: {x: 941.3827, y: 114.57214}
   m_UICollapsed: 0
@@ -1139,7 +1138,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614674}
-  m_UIPosition: {x: 941, y: 1279}
+  m_UIPosition: {x: 941, y: 1145}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -3148,7 +3147,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614665}
       inputSlot: {fileID: 8926484042661614594}
-    position: {x: 667, y: 2076}
+    position: {x: 669, y: 2206}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614665
@@ -3228,7 +3227,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614667}
       inputSlot: {fileID: 8926484042661614586}
-    position: {x: 710, y: 1708}
+    position: {x: 710, y: 1783}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614667
@@ -3530,7 +3529,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614682}
       inputSlot: {fileID: 8926484042661614678}
-    position: {x: 678, y: 1634}
+    position: {x: 678, y: 1686}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614682
@@ -3678,7 +3677,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614692}
       inputSlot: {fileID: 8926484042661614675}
-    position: {x: 739, y: 1229}
+    position: {x: 735, y: 1189}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614692
@@ -4089,7 +4088,7 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661614771}
     - outputSlot: {fileID: 8926484042661614723}
       inputSlot: {fileID: 8926484042661614772}
-    position: {x: 618, y: 910}
+    position: {x: 635, y: 887}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614723
@@ -4360,7 +4359,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614748}
       inputSlot: {fileID: 8926484042661614592}
-    position: {x: 635, y: 1928}
+    position: {x: 657, y: 1966}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614748
@@ -4703,6 +4702,67 @@ MonoBehaviour:
   m_MasterSlot: {fileID: 8926484042661614774}
   m_MasterData:
     m_Owner: {fileID: 8926484042661614773}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 0
+    m_Space: 2147483647
+  m_Property:
+    name: TexIndex
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
+  m_LinkedSlots: []
+--- !u!114 &8926484042661614775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a971fa2e110a0ac42ac1d8dae408704b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 8926484042661614558}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 0
+  m_UISuperCollapsed: 0
+  m_InputSlots:
+  - {fileID: 8926484042661614776}
+  m_OutputSlots: []
+  m_Disabled: 0
+  attribute: texIndex
+  Composition: 0
+  Source: 0
+  Random: 0
+  channels: 6
+--- !u!114 &8926484042661614776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661614776}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661614775}
     m_Value:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,

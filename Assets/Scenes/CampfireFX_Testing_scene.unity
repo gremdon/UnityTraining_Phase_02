@@ -682,6 +682,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7035747089629878862, guid: e32f6c8e9ce5f564e99944b84c75e561, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7244059803174166679, guid: e32f6c8e9ce5f564e99944b84c75e561, type: 3}
       propertyPath: m_Name
       value: Campfire
@@ -816,13 +820,19 @@ VisualEffect:
         m_Name: Random Texture Index
         m_Overridden: 0
     m_Vector3f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0, y: 0.5, z: 0}
+        m_Name: Velocity_vector
+        m_Overridden: 0
     m_Vector4f:
       m_Array: []
     m_Uint:
       m_Array: []
     m_Int:
-      m_Array: []
+      m_Array:
+      - m_Value: 50
+        m_Name: Spawn Rate
+        m_Overridden: 0
     m_Matrix4x4f:
       m_Array: []
     m_AnimationCurve:
